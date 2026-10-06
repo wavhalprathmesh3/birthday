@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #080607;
+  color: #fae6eb;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom romantic smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #080607;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #380c18;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6f1930;
+}
+
+/* 3D Transform Utilities for Card Flips */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Film Grain Texture */
+.film-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Subtle Vignette Overlay */
+.vignette-overlay {
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(8, 6, 7, 0.85) 95%);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: rgba(18, 8, 13, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(221, 91, 124, 0.15);
+}
+
+.glass-card {
+  background: rgba(26, 12, 20, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(244, 166, 182, 0.12);
+}
+
+/* Romantic Glow Effects */
+.rose-glow {
+  box-shadow: 0 0 35px rgba(170, 42, 76, 0.35);
+}
+
+.gold-glow {
+  box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
+}
+
+/* Text glow */
+.text-glow-rose {
+  text-shadow: 0 0 20px rgba(240, 145, 168, 0.45);
+}
+
+.text-glow-gold {
+  text-shadow: 0 0 20px rgba(230, 200, 139, 0.5);
+}
