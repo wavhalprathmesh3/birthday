@@ -252,7 +252,7 @@ Happy Birthday, Shruti.
 You are incredibly special to me.
 
 With all my love,
-[MY NAME] ❤️`
+Vaibhav ❤️`
   },
 
   // Scene 11: Playful Romantic Question
